@@ -284,15 +284,15 @@ Validated under pruning and quantization with real-time inference.
 - Latent-only communication
 - Low bandwidth overhead
 - Client-side personalization
-
-================================================================================
-
+- 
 ## 17. Privacy Analysis
 
 - Implicit identity conditioning
 - No raw sensor leakage
 - Synthetic-only benchmarking
 - Minimal attack surface
+
+<table> <thead> <tr> <th><b>Framework</b></th> <th><b>Federated<br>Learning</b></th> <th><b>Raw Data<br>Shared</b></th> <th><b>Latent-Only<br>Training</b></th> <th><b>Digital<br>Twin</b></th> <th><b>Communication<br>Overhead</b></th> <th><b>Privacy Risk</b></th> </tr> </thead> <tbody> <tr> <td>Centralized DL</td> <td style="background:#ffd6d6">🔴 No</td> <td style="background:#ffd6d6">Yes</td> <td style="background:#ffd6d6">🔴 No</td> <td style="background:#ffd6d6">🔴 No</td> <td style="background:#ffd6d6">High</td> <td style="background:#ffd6d6">High</td> </tr> <tr> <td>FL-Drive</td> <td style="background:#c6efce">🟢 Yes</td> <td style="background:#fff2cc">🟡 Partial</td> <td style="background:#ffd6d6">🔴 No</td> <td style="background:#ffd6d6">🔴 No</td> <td style="background:#fff2cc">Medium</td> <td style="background:#fff2cc">Medium</td> </tr> <tr> <td>FedTwin</td> <td style="background:#c6efce">🟢 Yes</td> <td style="background:#c6efce">No</td> <td style="background:#fff2cc">🟡 Partial</td> <td style="background:#fff2cc">🟡 Partial</td> <td style="background:#fff2cc">Medium</td> <td style="background:#fff2cc">Low</td> </tr> <tr> <td>SFLAAP</td> <td style="background:#c6efce">🟢 Yes</td> <td style="background:#c6efce">No</td> <td style="background:#fff2cc">🟡 Partial</td> <td style="background:#fff2cc">🟡 Partial</td> <td style="background:#fff2cc">Medium</td> <td style="background:#c6efce">Low</td> </tr> <tr> <td><b><span style="color:#0b5394;">⭐ FDDT (Proposed)</span></b></td> <td style="background:#c6efce"><b>🟢 Yes</b></td> <td style="background:#c6efce"><b>No</b></td> <td style="background:#c6efce"><b>🟢 Yes</b></td> <td style="background:#c6efce"><b>🟢 Full</b></td> <td style="background:#c6efce"><b>Low</b></td> <td style="background:#c6efce"><b>Minimal</b></td> </tr> </tbody> </table>
 
 ================================================================================
 
@@ -301,6 +301,7 @@ Validated under pruning and quantization with real-time inference.
 SIGNet-DT outperforms prior driver identification and digital twin frameworks
 in accuracy, robustness, and privacy preservation.
 
+<table> <thead> <tr> <th><b>Model</b></th> <th><b>Year</b></th> <th><b>Dataset</b></th> <th><b>Accuracy</b></th> <th><b>F1-Score</b></th> <th><b>Latency (ms)</b></th> <th><b>Privacy</b></th> <th><b>Remarks</b></th> </tr> </thead> <tbody> <tr> <td>STCN-ID</td> <td>2022</td> <td>Steering Dataset</td> <td style="background:#fff2cc">86.7%</td> <td style="background:#fff2cc">0.82</td> <td style="background:#c6efce">21.3</td> <td style="background:#ffd6d6">🔴 No</td> <td>Centralized, no personalization</td> </tr> <tr> <td>DG-DriverID</td> <td>2023</td> <td>DD’17</td> <td style="background:#fff2cc">91.3%</td> <td style="background:#fff2cc">0.86</td> <td style="background:#fff2cc">35.5</td> <td style="background:#ffd6d6">🔴 No</td> <td>Limited generalization</td> </tr> <tr> <td>FL-Drive</td> <td>2023</td> <td>Federated Dataset</td> <td style="background:#fff2cc">90.1%</td> <td style="background:#fff2cc">0.87</td> <td style="background:#fff2cc">31.6</td> <td style="background:#c6efce">🟢 Yes</td> <td>High communication overhead</td> </tr> <tr> <td>FedDriveScore</td> <td>2024</td> <td>Cross-Vehicle FL</td> <td style="background:#c6efce">95.2%</td> <td style="background:#c6efce">0.93</td> <td style="background:#c6efce">25.7</td> <td style="background:#c6efce">🟢 Yes</td> <td>Needs large federation</td> </tr> <tr> <td>SIGNet-B</td> <td>2026</td> <td>DD’17</td> <td style="background:#fff2cc">92.5%</td> <td style="background:#fff2cc">0.89</td> <td style="background:#c6efce">24.1</td> <td style="background:#c6efce">🟢 Yes</td> <td>Weak inter-driver separation</td> </tr> <tr> <td>SIGNet-C</td> <td>2026</td> <td>DD’17</td> <td style="background:#c6efce">97.2%</td> <td style="background:#c6efce">0.96</td> <td style="background:#fff2cc">30.2</td> <td style="background:#c6efce">🟢 Yes</td> <td>Higher training complexity</td> </tr> <tr> <td><b><span style="color:#0b5394;">⭐ SIGNet-DT (Proposed)</span></b></td> <td><b>2026</b></td> <td><b>DD’17</b></td> <td style="background:#c6efce"><b>99.1%</b></td> <td style="background:#c6efce"><b>0.99</b></td> <td style="background:#fff2cc">32.8</td> <td style="background:#c6efce"><b>🟢 Yes</b></td> <td><b>Best overall performance</b></td> </tr> <tr> <td><b>IDInferNet</b></td> <td>2026</td> <td>Latent Only</td> <td style="background:#c6efce">98.9%</td> <td style="background:#c6efce">0.98</td> <td style="background:#c6efce"><b>15.2</b></td> <td style="background:#c6efce">🟢 Yes</td> <td>Ultra-lightweight inference</td> </tr> </tbody> </table> 
 ================================================================================
 
 ## 19. Reproducibility Checklist
