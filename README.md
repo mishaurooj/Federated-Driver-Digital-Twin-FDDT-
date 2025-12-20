@@ -11,15 +11,6 @@ for the paper:
 **Federated Driver Digital Twin (FDDT): Secure, Adaptive, and Edge-Deployable Private Models for Connected Vehicles**  
 *IEEE Transactions on Affective Computing*
 
-This README is intentionally **long, detailed, and archival-quality**.  
-It is designed to be:
-- Reviewer-proof
-- Reproducibility-complete
-- Fully aligned with **ALL figures, tables, and metrics**
-- Suitable as supplementary material or long-form documentation
-
-NO figures, tables, or experimental results from the manuscript are omitted.
-
 ================================================================================
 
 ## TABLE OF CONTENTS
@@ -79,6 +70,8 @@ FDDT resolves these limitations by combining:
 - Latent identity abstraction
 - Federated learning compatibility
 - Edge-aware deployment constraints
+
+<table> <thead> <tr> <th><b>Method</b></th> <th><b>Year</b></th> <th><b>Federated<br>Learning</b></th> <th><b>Raw Data<br>Sharing</b></th> <th><b>Digital<br>Twin</b></th> <th><b>Identity<br>Preservation</b></th> <th><b>Edge<br>Ready</b></th> <th><b>Key Limitations</b></th> </tr> </thead> <tbody> <tr> <td><b>STCN-ID</b></td> <td>2022</td> <td style="background:#ffd6d6">🔴 No</td> <td style="background:#ffd6d6">Yes</td> <td style="background:#ffd6d6">🔴 No</td> <td style="background:#fff2cc">🟡 Weak</td> <td style="background:#fff2cc">🟡 Partial</td> <td>No privacy preservation, centralized training</td> </tr> <tr> <td><b>DG-DriverID</b></td> <td>2023</td> <td style="background:#ffd6d6">🔴 No</td> <td style="background:#ffd6d6">Yes</td> <td style="background:#ffd6d6">🔴 No</td> <td style="background:#c6efce">🟢 Strong</td> <td style="background:#fff2cc">🟡 Partial</td> <td>Lacks federated and generative modeling</td> </tr> <tr> <td><b>FL-Drive</b></td> <td>2023</td> <td style="background:#c6efce">🟢 Yes</td> <td style="background:#fff2cc">🟡 Partial</td> <td style="background:#ffd6d6">🔴 No</td> <td style="background:#fff2cc">🟡 Moderate</td> <td style="background:#fff2cc">🟡 Partial</td> <td>Communication heavy, no digital twin abstraction</td> </tr> <tr> <td><b>FedTwin</b></td> <td>2022</td> <td style="background:#c6efce">🟢 Yes</td> <td style="background:#c6efce">No</td> <td style="background:#fff2cc">🟡 Partial</td> <td style="background:#fff2cc">🟡 Moderate</td> <td style="background:#fff2cc">🟡 Partial</td> <td>Weak identity consistency, generic IoT focus</td> </tr> <tr> <td><b>SFLAAP</b></td> <td>2023</td> <td style="background:#c6efce">🟢 Yes</td> <td style="background:#c6efce">No</td> <td style="background:#fff2cc">🟡 Partial</td> <td style="background:#c6efce">🟢 Strong</td> <td style="background:#fff2cc">🟡 Partial</td> <td>High coordination complexity at edge</td> </tr> <tr> <td><b>FedDriveScore</b></td> <td>2024</td> <td style="background:#c6efce">🟢 Yes</td> <td style="background:#c6efce">No</td> <td style="background:#ffd6d6">🔴 No</td> <td style="background:#c6efce">🟢 Strong</td> <td style="background:#c6efce">🟢 Yes</td> <td>Requires large participant pool</td> </tr> <tr> <td><b><span style="color:#0b5394;">⭐ FDDT (Proposed)</span></b></td> <td><b>2026</b></td> <td style="background:#c6efce"><b>🟢 Yes</b></td> <td style="background:#c6efce"><b>No</b></td> <td style="background:#c6efce"><b>🟢 Full</b></td> <td style="background:#c6efce"><b>🟢 Explicit</b></td> <td style="background:#c6efce"><b>🟢 Yes</b></td> <td><b>None observed under evaluated settings</b></td> </tr> </tbody> </table>
 
 ================================================================================
 
