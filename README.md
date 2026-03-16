@@ -9,7 +9,6 @@
 ![Edge](https://img.shields.io/badge/Edge-Ready-informational)
 ![Status](https://img.shields.io/badge/Status-Research--Grade-brightgreen)
 
-**Complete, exhaustive, and publication-faithful research artifacts**
 
 > **Federated Driver Digital Twin (FDDT): Secure, Adaptive, and Edge-Deployable Private Models for Connected Vehicles**  
 > *IEEE open journal of computer society*
