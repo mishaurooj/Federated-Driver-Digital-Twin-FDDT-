@@ -12,7 +12,7 @@
 **Complete, exhaustive, and publication-faithful research artifacts**
 
 > **Federated Driver Digital Twin (FDDT): Secure, Adaptive, and Edge-Deployable Private Models for Connected Vehicles**  
-> *IEEE Transactions on Affective Computing*
+> *IEEE open journal of computer society*
 
 </div>
 
@@ -278,8 +278,8 @@ Apache License 2.0
 ```bibtex
 @article{FDDT2026,
   title={Federated Driver Digital Twin: Secure, Adaptive, and Edge Deployable Private Models for Connected Vehicles},
-  author={Khan, Ajmal and Khan, Misha Urooj and Suleman, Ahmad and Kaleem, Zeeshan},
-  journal={IEEE Transactions on Affective Computing},
+  author={Khan, Ajmal and Khan, Misha Urooj and Suleman, Ahmad},
+  journal={open journal of computer society},
   year={2026}
 }
 ```
