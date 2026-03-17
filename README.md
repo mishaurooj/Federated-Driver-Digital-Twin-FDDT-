@@ -18,29 +18,28 @@
 ---
 
 ## 📑 Table of Contents
-1. Introduction  
-2. Research Motivation  
-3. Contributions  
-4. Repository Structure  
-5. System Overview  
-6. FDDT Framework  
-7. Architectural Details  
-8. Dataset Description  
-9. Training Protocol  
-10. Evaluation Metrics  
-11. Latent Space Analysis  
-12. Latent Consistency & Separability Results  
-13. Identity Inference Results  
-14. Digital Twin Generated Data Evaluation  
-15. Edge Deployment & Efficiency  
-16. Federated Learning Properties  
-17. Privacy Analysis  
-18. Comparative Evaluation with Literature  
-19. Reproducibility Checklist  
-20. Limitations  
-21. License  
-22. Citation
-
+1. [Introduction](#introduction)
+2. [Research Motivation](#research-motivation)
+3. [Contributions](#contributions)
+4. [Repository Structure](#repository-structure)
+5. [System Overview](#system-overview)
+6. [FDDT Framework](#fddt-framework)
+7. [Architectural Details](#architectural-details)
+8. [Dataset Description](#dataset-description)
+9. [Training Protocol](#training-protocol)
+10. [Evaluation Metrics](#evaluation-metrics)
+11. [Latent Space Analysis](#latent-space-analysis)
+12. [Latent Consistency & Separability Results](#latent-consistency--separability-results)
+13. [Identity Inference Results](#identity-inference-results)
+14. [Digital Twin Generated Data Evaluation](#digital-twin-generated-data-evaluation)
+15. [Edge Deployment & Efficiency](#edge-deployment--efficiency)
+16. [Federated Learning Properties](#federated-learning-properties)
+17. [Privacy Analysis](#privacy-analysis)
+18. [Comparative Evaluation with Literature](#comparative-evaluation-with-literature)
+19. [Reproducibility Checklist](#reproducibility-checklist)
+20. [Limitations](#limitations)
+21. [License](#license)
+22. [Citation](#citation)
 ---
 
 ## 1. Introduction
