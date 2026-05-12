@@ -277,7 +277,7 @@ Apache License 2.0
 @article{FDDT2026,
   title={Federated Driver Digital Twin: Secure, Adaptive, and Edge Deployable Private Models for Connected Vehicles},
   author={Khan, Ajmal and Khan, Misha Urooj and Suleman, Ahmad},
-  journal={open journal of computer society},
+  journal={Open Journal of Computer Society},
   year={2026}
 }
 ```
